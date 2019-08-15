@@ -3,6 +3,12 @@
 
 这个项目很神秘，什么说明都没有留下。
 
+Source Code
+-----------
+
+iOS App: https://gitlab.mapbar.com/navicore/navi-zero-ios
+Android App: https://gitlab.mapbar.com/navicore/navi-zero-android
+
 Reference
 ---------
 
