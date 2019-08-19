@@ -1,9 +1,35 @@
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: Helvetica,Arial,  sans-serif;
+    line-height: 30px;
 }
-
+hr{
+  margin:0;
+  size:1px;
+}
+h3{
+    margin: 16px;
+}
+.img1{
+    width: 170px;
+    height:150px;
+    margin-left: 20%;
+    padding-right:20px;
+    float: left;
+}
+.img2{
+    width:600px;
+    height:400px;
+    margin-right:5%;
+    margin-top:5%;
+    float: left;
+}
+div{
+    font-size:14px;
+}
 .index{
     width: 100%;
     min-height: 600px;
@@ -18,7 +44,7 @@
     min-height:  100px;
     background-color: rgb(223, 223, 223);
     margin: 0;
-    padding:0px 10%;
+    padding:0px 7%;
     padding-top:20px;
     float:left;
 }
@@ -26,9 +52,9 @@
     width: 100%;
     min-height: 35px;
     line-height: 35px;
-    font-size:15px;
+    font-size:14px;
     background-color: rgb(54, 54, 54);
-    padding-left: 10%;
+    padding-left: 7%;
     float:left;
 }
 .dh span{
@@ -36,6 +62,12 @@
 }
 .dh a{
     color:white;
+}
+h2 a{
+    color:black;
+}
+h2>span {
+    color: #949494;
 }
 a:hover{
     color:rgb(0, 0, 255);
@@ -48,28 +80,60 @@ a{
 .mn{
     width: 100%;
     min-height: 480px;
-    padding:0px 10%;
+    padding:0px 7%;
     float: left;
-    line-height: 35px;
+    line-height: 30px;
     background-color: rgb(223, 223, 223);
     border:0;
 }
     
 .in1{
+    float:left;
     width: 100%;
     min-height: 470px;
     padding:0px 2%;
     margin-bottom:10px;
-    float:left;
-    line-height:35px;
+    line-height:30px;
     background-color: white;
     padding-bottom: 10px;
 }
 .in1 span,.in2 span{
-    font-size: 16px;
+    font-size: 14px;
 }
 .in1 i,.in2 i{
     padding-left:40px;
+}
+.ina{
+    float: left;
+    border:0;
+    width:100%;
+    min-height: 100px;
+    line-height: 30px;
+
+}
+.ina1{
+    border:0;
+    width:45%;
+    float: left;
+}
+.ina2{
+    border:0;
+    width:45%;
+    float: left;
+    padding-left: 20px;
+}
+.ina3{
+    border:0;
+    width:55%;
+    float: left;
+    padding-top:80px;
+}
+.ina4{
+    border:0;
+    width:55%;
+    float: left;
+    padding:0;
+    padding-right:10%;
 }
 #reference p{
     padding-left:30px;
@@ -89,7 +153,7 @@ a{
     float:left;
     line-height:35px;
     background-color: white;
-    font-size: 16px;
+    font-size: 14px;
     padding-bottom: 10px;
 }
 .in2 h2{
@@ -155,6 +219,12 @@ ul{
     margin-top: 0px;
 }
 p{
+    margin:0;
+}
+#source-code p{
+    margin:0;
+}
+.ina p{
     margin-bottom:0px;
     margin-top:10px;
 }
