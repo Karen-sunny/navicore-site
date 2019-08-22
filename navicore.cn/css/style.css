@@ -1,217 +1,149 @@
 
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     font-family: Helvetica,Arial,  sans-serif;
-    line-height: 30px;
+    line-height: 1.7rem;
+   
 }
-hr{
-  margin:0;
-  size:1px;
-}
-h3{
-    margin: 16px;
+html{
+    font-size:16px;   
+    min-width: 1480px;
 }
 .img1{
-    width: 170px;
-    height:150px;
-    margin-left: 20%;
-    padding-right:20px;
+    max-width:10.5rem;
+    max-height:9.5rem;
+    margin-left: 2rem;
+    padding-right:1rem;
     float: left;
+    
 }
 .img2{
-    width:600px;
-    height:400px;
-    margin-right:5%;
-    margin-top:5%;
+    max-width:42rem;
+    max-height:28rem;
+    margin-right:1rem;
+    margin-top:1rem;
     float: left;
 }
 div{
-    font-size:14px;
-}
-.index{
-    width: 100%;
-    min-height: 600px;
-    background-color: #fff;
-    color:black;
-    margin: 0;
-    padding: 0;
-    float:left;
-}
-.top{
-    width:100%;
-    min-height:  100px;
-    background-color: rgb(223, 223, 223);
-    margin: 0;
-    padding:0px 7%;
-    padding-top:20px;
-    float:left;
-}
-.dh{
-    width: 100%;
-    min-height: 35px;
-    line-height: 35px;
-    font-size:14px;
-    background-color: rgb(54, 54, 54);
-    padding-left: 7%;
-    float:left;
-}
-.dh span{
-    margin-right: 50px;
-}
-.dh a{
-    color:white;
+    font-size:16px;
 }
 h2 a,.ina3 a{
     color:black;
 }
 h2>span {
     color: #949494;
+    font-size:16px;
+}
+h3{
+    margin: 0.9rem;
 }
 a:hover{
     color:rgb(0, 0, 255);
 }
 a{
-  text-decoration: none;
+   text-decoration: none;
     color: #666666;
     text-align: center;
 }
+.index{
+    width: 100%;
+    min-height: 35rem;
+    background-color: #fff;
+    color:black;
+    margin: 0;
+    padding: 0;
+    float:left;
+  
+}
+.top{
+    width:100%;
+    min-height:6rem;
+    background-color: rgb(223, 223, 223);
+    margin: 0;
+    padding:0px 7%;
+    padding-top:1rem;
+    float:left;
+}
+.dh{
+    width: 100%;
+    min-height:2rem;
+    line-height: 2rem;
+    background-color: rgb(54, 54, 54);
+    padding-left: 7%;
+    float:left;
+}
+.dh span{
+    margin-right: 5rem;
+}
+.dh a{
+    color:white;
+}
+
+
 .mn{
     width: 100%;
-    min-height: 480px;
+    min-height: 35rem;
     padding:0px 7%;
     float: left;
-    line-height: 30px;
+    line-height: 3rem;
     background-color: rgb(223, 223, 223);
     border:0;
-}   
+}
+    
 .in1{
     float:left;
     width: 100%;
-    min-height: 470px;
+    min-height: 34.5rem;
     padding:0px 2%;
-    margin-bottom:10px;
-    line-height:30px;
+    margin-bottom:0.5rem;
     background-color: white;
-    padding-bottom: 10px;
-}
-.in1 span,.in2 span{
-    font-size: 14px;
+    padding-bottom: 1rem;
 }
 .in1 i,.in2 i{
-    padding-left:40px;
+    padding-left:4rem;
 }
 .ina{
     float: left;
     border:0;
     width:100%;
-    min-height: 100px;
-    line-height: 30px;
-
+    min-height: 6rem;
 }
 .ina1{
     border:0;
-    width:45%;
+    width:33rem;
     float: left;
 }
 .ina2{
     border:0;
-    width:45%;
+    width:13.5rem;
     float: left;
-    padding-left: 20px;
+    padding-left: 2rem;
 }
 .ina3{
     border:0;
-    width:55%;
+    width:19rem;
     float: left;
-    padding-top:80px;
+    padding-top:6rem;
+    padding-left: 1rem;
+    
 }
 .ina4{
     border:0;
-    width:55%;
+    width:40rem;
     float: left;
     padding:0;
-    padding-right:10%;
 }
 #reference p{
-    padding-left:30px;
+    padding-left:3rem;
 }
 #reference span{
-    padding:0px 10px;
-    font-size:14px;
+    padding:0px 1rem;
 }
 #reference i{
-    padding-left:10px;
-}
-.in2{
-    width: 100%;
-    min-height: 470px;
-    padding:0px 2%;
-    margin-bottom:10px;
-    float:left;
-    line-height:35px;
-    background-color: white;
-    font-size: 14px;
-    padding-bottom: 10px;
-}
-.in2 h2{
-    text-align: center;
-}
-.in2 p, .in2 h3{
-    text-align: justify;
-}
-.in2a{
-    width:25%;
-    min-height:100px;
-    border:1px solid rgb(223, 223, 223);
-    float: left;
-    margin-right:1%;
-    background-color: rgb(247, 255, 248);
-}
-.in2a ul{
-    padding:0 20px;
-}
-#zt li{
-    font-size:14px;
-    border-bottom: dashed 1px rgb(117, 117, 117);
-}
-.in2b{
-    width: 74%;
-    min-height: 200px;
-    float: left;
-}
-.inb1{
-    width: 100%;
-    min-height: 200px;
-    float: left;
-    border:1px solid rgb(223, 223, 223);
-    background-color: rgb(247, 247, 247);
-    padding:0px 1%;
-    margin-bottom: 10px;
-}
-.inb11{
-    width:100%;
-    text-align: center;
-    margin:5px;
-    padding:0 1%;
-    float: left;
-    margin-bottom:20px;
-}
-.inb12{
-    margin: auto;
-}
-.inb2{
-    width:100%;
-    float:left;
-    padding:0 2%
-}
-ol li{
-    margin-left:20px;
-}
-.in3{
-    width:100%;
-    padding-left: 40px;
+    padding-left:1rem;
 }
 ul{
     list-style-type:none;
@@ -222,8 +154,48 @@ p{
 }
 #source-code p{
     margin:0;
+    padding-right: 2rem;
 }
 .ina p{
     margin-bottom:0px;
-    margin-top:10px;
+    margin-top:0.5rem;
+}
+@media screen and  ( min-width:5001px) and ( max-width:5500px) {
+    html{width: 100%;
+    }  
+    .img2{
+        width: 2400px;
+        height: 1600px;
+    }
+}
+@media screen and  ( min-width:2801px) and ( max-width:5000px) {
+    html{width: 100%;}  
+    .img2{
+        width: 1800px;
+        height: 1200px;
+    }
+}
+@media screen and  ( min-width:2101px) and ( max-width:2800px) {
+    html{width: 100%;     }  
+    .img2{
+        width: 1200px;
+        height: 800px;
+    }
+}
+@media screen and  ( min-width:1901px) and ( max-width:2100px) {
+    html{width: 100%;}  
+    .img2{
+        width: 900px;
+        height: 600px;
+    }
+}
+@media screen and  ( min-width:1750px) and ( max-width:1900px) {
+    html{width: 100%;}  
+    .img2{
+        width: 810px;
+        height: 540px;
+    }
+}
+@media screen and  ( min-width:1400px) and ( max-width:1749px) {
+    html{width: 100%; }  
 }
